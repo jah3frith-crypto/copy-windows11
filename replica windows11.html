@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Windows 11 Copy</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="desktop">
+      <section class="widgets">
+        <article class="widget weather">
+          <p>72°</p>
+          <span>Cloudy · Seattle</span>
+        </article>
+        <article class="widget stocks">
+          <p>Dow +0.8%</p>
+          <span>Markets green today</span>
+        </article>
+      </section>
+
+      <section class="quick-panel" id="quickPanel">
+        <h2>Quick Settings</h2>
+        <div class="toggles">
+          <button>Wi‑Fi</button>
+          <button>Bluetooth</button>
+          <button>Night light</button>
+          <button>Focus</button>
+        </div>
+      </section>
+
+      <section class="start-menu" id="startMenu">
+        <div class="start-header">
+          <h2>Pinned</h2>
+          <button class="all-apps">All apps</button>
+        </div>
+        <div class="apps-grid">
+          <button>Edge</button>
+          <button>Store</button>
+          <button>Photos</button>
+          <button>Mail</button>
+          <button>Notepad</button>
+          <button>Calculator</button>
+          <button>Settings</button>
+          <button>Terminal</button>
+        </div>
+      </section>
+
+      <footer class="taskbar">
+        <div class="left-group">
+          <button class="start-button" id="startButton" aria-label="Start menu">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <button class="icon">🔍</button>
+          <button class="icon">🗂️</button>
+          <button class="icon">🎮</button>
+        </div>
+
+        <button class="status" id="statusButton" aria-label="Open quick settings">
+          <span>🔋</span>
+          <span>📶</span>
+          <span>🔈</span>
+        </button>
+
+        <div class="clock" id="clock">--:--</div>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
